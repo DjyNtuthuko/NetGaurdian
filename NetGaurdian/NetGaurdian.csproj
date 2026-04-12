@@ -103,7 +103,9 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="assets\NetGuardian Audio Text.wav" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="assets\logo.png" />
   </ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetGuardian;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,12 @@ namespace NetGaurdian
     {
         static void Main(string[] args)
         {
+            Audio audio = new Audio();
+            audio.Playaudio();
+
             new Image();
+
+            
         }
     }
 }

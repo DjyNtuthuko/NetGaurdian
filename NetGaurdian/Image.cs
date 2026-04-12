@@ -36,7 +36,7 @@ namespace NetGaurdian
 
                         char ascii =
                             color > 200 ? '@' :
-                            color > 150 ? '*' :
+                            color > 150 ? '.' :
                             color > 100 ? '0' :
                             color > 50 ? '#' :
                             '.';

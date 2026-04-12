@@ -3,8 +3,9 @@ using System.IO;
 using System.Media;
 
 namespace NetGuardian
+
 {
-    internal class Audio
+    public class Audio
     {
         public void Playaudio()
         {
@@ -15,7 +16,7 @@ namespace NetGuardian
             string newPath = projectPath.Replace("bin\\Debug\\", "");
 
             // Combine path with audio file
-            string audioPath = Path.Combine(newPath, "assets", "WelcomeAudio.wav");
+            string audioPath = Path.Combine(newPath, "assets", "NetGuardian Audio Text.wav");
 
             try
             {
