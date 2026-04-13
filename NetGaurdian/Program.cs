@@ -16,7 +16,10 @@ namespace NetGaurdian
 
             new Image();
 
-            
+            Bot bot = new Bot();
+            bot.Chat();
+
+
         }
     }
 }
